@@ -19,7 +19,7 @@ CREATE TABLE salary (
 INSERT INTO salary(salary_id,salary)
 VALUES(1,1000),(2,1500),(3,20000);
 
--- create table for employee with department and salary foreign keys
+-- create table for employee with department and salary foreign keys.
 
 CREATE table employee(id INTEGER NOT NULL,
 name VARCHAR(100),date_hired DATETIME,department_id INT,PRIMARY KEY(id),
